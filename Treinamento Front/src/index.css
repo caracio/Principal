@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.paper {
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  align-items: center;
+  width: 1000px;
+  height: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boxDentro {
+  display: flex;
+  
+}
+
+.boxImagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ;
+}
+
+.boxTitulo {
+ display: flex;
+ flex-direction: column;
+ margin-left: 30px;
+ justify-content: center;
+}
+
+Button {
+  display: flex;
+  text-align: left;
+  padding: 5px;
+}
+
+div h1 {
+  margin-left: 140px;
+}
+
+.carrinho {
+display: flex;
+margin: 30px;
+margin-right: 130px;
+justify-content: right;
+}
+
